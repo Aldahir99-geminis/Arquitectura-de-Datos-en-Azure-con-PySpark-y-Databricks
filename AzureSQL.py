@@ -5,6 +5,10 @@ dbutils.secrets.listScopes()
 
 dbutils.secrets.list(scope="scope-azuresql")
 
+# COMMAND ----------
+
+scope = "scope-azuresql"
+sqluser_key = "sql-user"
 sqlpassword_key = "sql-password"
 
 # COMMAND ----------
