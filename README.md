@@ -46,6 +46,8 @@ Provide business-ready data and enable advanced analytics through dashboards and
 ## 🏗️**Data Architecture**
 The data pipeline follows the Medallion Architecture with three layers:
 
+<img width="900" height="435" alt="Azure Medallion Architecture" src="https://github.com/user-attachments/assets/8a1b1108-27f6-4b6a-a6b5-045592cdbd44" />
+
 1. **Bronze Layer**
   - Raw ingestion of source data into ADLS Gen2.
   - Retains original structure for traceability and reprocessing.
